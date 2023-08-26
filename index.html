@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-shop</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/media.css">
+  <script src="https://kit.fontawesome.com/7c3aef27c1.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--Frete gratis-->
+  <div class="anuncio-header">
+    <h1>FRETE GRATIS DURANTE ESTE MÊS</h1>
+  </div>
+
+  <header>
+    <nav class="nav container">
+      <a href="#">
+        <h1><span id="e">E</span>-shop</h1>
+      </a>
+      <div class="nav_menu">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a id="a_icons" href="index.html" class="nav_link active_link">
+              <i class="fa-solid fa-house nav_icon"></i>
+              <span class="nav_name link-superior">Inicio</span></a>
+          </li>
+          <li class="nav_item">
+            <a id="a_icons" href="#" class="nav_link ">
+              <i class="fa-solid fa-shop nav_icon"></i>
+              <span class="nav_name link-superior">Produtos</span></a>
+          </li>
+          <li class="nav_item">
+            <a id="a_icons" href="#" class="nav_link">
+              <i class="fa-solid fa-cart-shopping nav_icon"></i>
+              <span class="nav_name link-superior">Carrinho</span></a>
+          </li>
+          <li class="nav_item">
+            <a id="a_icons" href="#" class="nav_link">
+              <i class="fa-solid fa-user nav_icon"></i>
+              <span class="nav_name link-superior">Sua conta</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="inform">
+        <i class="fa-solid  fa-magnifying-glass"></i>
+        <i class="fa-regular fa-heart" onclick="changeicon(this)"></i>
+        <i class="fa-sharp fa-solid fa-shop"></i>
+      </div>
+    </nav>
+  </header>
+
+
+  <!--destque "Headset"-->
+  <div class="destaque">
+    <div class="conteudo-destaque">
+      <div class="titulo-destaque">
+        <h1>O melhor headset para você</h1>
+        <a href="#"><button>Comprar</button></a>
+      </div>
+      <div class="produto1">
+        <img src="assets/img/fone.jpeg" alt="PRODUTO1">
+      </div>
+    </div>
+  </div>
+
+  <!--Categorias parte do meio-->
+  <div class="categoria">
+    <div class="categorias">
+      <ul>
+        <li id="cat-dropdown"><a>Categorias <i class="fa-solid fa-chevron-down"></i> </a></li>
+
+        <li class="link-cat"><a href="">Celulares</a></li>
+        <li class="link-cat"><a href="">Móveis</a></li>
+        <li class="link-cat"><a href="">Tv e Video</a></li>
+        <li class="link-cat"><a href="">Moda</a></li>
+        <li class="link-cat"><a href="">Ferramentas</a></li>
+      </ul>
+    </div>
+    <div class="arrow">
+      <a href=""><i class="fa-solid fa-arrow-left"></i></a>
+      <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!--Produtos-->
+
+  <div class="produtos">
+    <div class="card">
+      <div class="like">
+        <i class="fa-regular fa-heart" onclick="changeicon(this)"></i>
+        </i>
+      </div>
+      <img src="assets/img/produtos/miBand.jpg" alt="">
+      <div class="descricao">
+        <h4>Mi Band 7</h4>
+        <p>R$: 700,00</p>
+      </div>
+      <a href="" class="comprar">Comprar</a>
+    </div>
+
+    <div class="card">
+      <div class="like">
+        <i class="fa-regular fa-heart" onclick="changeicon(this)"></i>
+        </i>
+      </div>
+      <img src="assets/img/produtos/limpador.jpeg" alt="">
+      <div class="descricao">
+        <h4>Limpador para celular</h4>
+        <p>R$: 35,00</p>
+      </div>
+      <a href="" class="comprar">Comprar</a>
+    </div>
+
+    <div class="card">
+      <div class="like">
+        <i class="fa-regular fa-heart" onclick="changeicon(this)"></i>
+      </div>
+      <img src="assets/img/produtos/carregador.jpg" alt="">
+      <div class="descricao">
+        <h4>Carregador portatil</h4>
+        <p>R$: 80,00</p>
+      </div>
+      <a href="" class="comprar">Comprar</a>
+    </div>
+
+    <div class="card">
+      <div class="like">
+        <i class="fa-regular fa-heart" onclick="changeicon(this)"></i>
+        </i>
+      </div>
+      <img src="assets/img/produtos/camisa.jpeg" alt="">
+      <div class="descricao">
+        <h4>Camisa social</h4>
+        <p>R$: 99,99</p>
+      </div>
+      <a href="" class="comprar">Comprar</a>
+    </div>
+
+    <div class="card">
+      <div class="like">
+        <i class="fa-regular fa-heart" onclick="changeicon(this)"></i>
+        </i>
+      </div>
+      <img src="assets/img/produtos/oculos.jpg" alt="">
+      <div class="descricao">
+        <h4>Oculos herry potter</h4>
+        <p>R$: 100.000,00</p>
+      </div>
+      <a href="" class="comprar">Comprar</a>
+    </div>
+
+    <div class="card">
+      <div class="like">
+        <i class="fa-regular fa-heart" onclick="changeicon(this)"></i>
+        </i>
+      </div>
+      <img src="assets/img/produtos/gabinete.jpg" alt="">
+      <div class="descricao">
+        <h4>Gabinete Gamer</h4>
+        <p>R$: 350,00</p>
+      </div>
+      <a href="" class="comprar">Comprar</a>
+    </div>
+
+    <div class="card">
+      <div class="like">
+        <i class="fa-regular fa-heart" onclick="changeicon(this)"></i>
+        </i>
+      </div>
+      <img src="assets/img/produtos/capinha.jpg" alt="">
+      <div class="descricao">
+        <h4>Capinha Iphone 14</h4>
+        <p>R$: 15.000,00</p>
+      </div>
+      <a href="" class="comprar">Comprar</a>
+    </div>
+
+    <div class="card">
+      <div class="like">
+        <i class="fa-regular fa-heart" onclick="changeicon(this)"></i>
+        </i>
+      </div>
+      <img src="assets/img/produtos/liqui.jpg" alt="">
+      <div class="descricao">
+        <h4>liquidificador</h4>
+        <p>R$: 69,99</p>
+      </div>
+      <a href="" class="comprar">Comprar</a>
+    </div>
+  </div>
+
+
+
+  <!--destque2 "tenis"-->
+  <div class="destaque2">
+    <div class="conteudo-destaque2">
+      <div class="titulo-destaque2">
+        <h1>Melhor tenis para ir na academia!</h1>
+        <a href="#"><button>Comprar</button></a>
+      </div>
+      <div class="produto2">
+        <img src="assets/img/tenis.png" alt="PRODUTO1">
+      </div>
+    </div>
+  </div>
+
+  <!--Footer "rodape"-->
+  <footer>
+    <img src="https://avatars.githubusercontent.com/u/94332377?v=4" alt="">
+    <h3>Site desenvolvido por <a href="https://luanmachadoyt.github.io/Luan-Machado">Luan Machado</a></h3>
+  </footer>
+
+
+  <!-- Script -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
